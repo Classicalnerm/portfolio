@@ -14,3 +14,7 @@ To filter DNS traffic at the network layer, reducing ads and tracking domains ac
 
 ## Notes
 This is the first of many services I plan to deploy on my Proxmox home-lab. I had alot of fun and learned a great bit. I encourage you to try this on your own!
+
+##screenshots
+
+![pi-hole daskboard](pihole dashboard.png)
