@@ -1,0 +1,16 @@
+# PI-Hole DNS server
+
+##Overview
+I deployed Pi-Hole as a network wide DNS ad blocker inside a Proxmox LXC container  as part of my personal home lab.
+
+##Purpose
+To filter DNS traffic at the network layer, reducing ads and tracking domains across connected devices. This approach allowed me to block ads where browser based extensions cannot be installed.
+
+##Deployment
+- Installed Pi-Hole in a Debian LXC container on Proxmox
+-Initially configured using DHCP (rookie mistake) 
+-Resolved my mistake by implementing a DHCP reservation on the router to ensure a consistent and predictable IP address for my DNS server.
+-Configured pi-hole as the primary DNS resolver for my devices on the netwworrk
+
+## Notes
+This is the first of many services I plan to deploy on my Proxmox home-lab. I had alot of fun and learned a great bit. I encourage you to try this on your own!
